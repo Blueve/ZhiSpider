@@ -58,3 +58,7 @@ target/
 
 # Compiled file
 *.pyc
+
+# Project file
+*.sublime-project
+*.sublime-workspace
