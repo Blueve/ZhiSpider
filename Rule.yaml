@@ -1,0 +1,30 @@
+
+LOGIN:
+    TEST: //a[@id='top-nav-dd-topic']
+
+QUESTION:
+    HOME: http://www.zhihu.com
+    URL: http://www.zhihu.com/log/questions
+    XPATH:
+        PAGE: //div[@class='zm-item']
+        JSON: /html/body/div
+        TITLE: ./h2[@class='zm-item-title']/a
+        AUTHOR: ./div/a
+        DATE: .//time
+
+ANSWER:
+    HOME: http://www.zhihu.com
+    QUEUE:
+        LIMIT: 200
+    MAX: 3
+    VOTELIMIT: 100
+    XPATH:
+        TAGS: //a[@class='zm-item-tagv']
+        ANSWERS: //div[@id='zh-question-answer-wrap']/div
+        CONTENT: .//div[@data-action='/answer/content']/div
+        AUTHOR: .//h3[@class='zm-item-answer-author-wrap']/a
+        AUTHOR_ANONYMOUS: .//h3[@class='zm-item-answer-author-wrap']
+        AUTHOR_SHOW: .//h3[@class='zm-item-answer-author-wrap']/a[2]
+        DATE: .//span[@class='answer-date-link-wrap']/a
+        VOTE_MY: .//a[@class='zm-item-vote-count']
+        VOTE_OTHER: .//div[@data-votecount]

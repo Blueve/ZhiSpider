@@ -1,0 +1,29 @@
+URL:
+    HOME: http://www.zhihu.com
+    LOGIN: http://www.zhihu.com/login
+    QUESTIONS: http://www.zhihu.com/log/questions
+
+HEADERS:
+    INIT:
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+        Accept-Encoding: gzip,deflate,sdch
+        Accept-Language: en-US,en;q=0.8
+        Connection: keep-alive
+        Host: www.zhihu.com
+        Referer: http://www.zhihu.com/log/recent
+        User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36
+
+    MOD:
+        Referer: http://www.zhihu.com/log/questions
+        X-Requested-With: XMLHttpRequest
+
+AUTH:
+    EMAIL: 填写知乎账号
+    PASSWORD: 填写知乎账号密码
+
+DB:
+    NAME: data.db
+    QUESTIONS: questions.db
+    ANSWERS: answers.db
+
+EXCEPTIONS: exceptions.log
