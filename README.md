@@ -5,8 +5,17 @@ ZhiSpider
 
 ## 配置说明
 
-  - Mac OSX
+  - Mac OS X
+  
+  1. `sudo pip install requests`
 
+  2. `sudo pip install pyyaml`
+
+  3. `STATIC_DEPS=true sudo pip install lxml`
+
+
+  - Ubuntu
+  
   1. `sudo pip install requests`
 
   2. `sudo pip install pyyaml`
@@ -15,13 +24,6 @@ ZhiSpider
 
   4. `sudo pip install lxml`
 
-  - Ubuntu
-
-  1. `sudo pip install requests`
-
-  2. `sudo pip install pyyaml`
-
-  3. `STATIC_DEPS=true sudo pip install lxml`
 
 ## 使用
 
